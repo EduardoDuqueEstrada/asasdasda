@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <script src="portifolio.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b1a4334b4c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Centralizar Texto</title>
+    <style></style>
+    <script src="index.js"></script>
+
+</head>
+
+<body>
+
+
+    <label class="switch">
+        <input type="checkbox" onclick="darkmode()">
+        <span class="slider round"></span>
+    </label>
+    <div id="menu"> <a id="buttonMenu" style="margin-left: 10%;" href="#laele">Home</a> <a id="buttonMenu"
+            href="#about">About</a> <a id="buttonMenu" href="#projetos">Projects</a> <a id="buttonMenu"
+            href="#contato">Contact</a> </div>
+    <div id="imagem-fundo">
+        <div></div>
+        <div id="laele">
+            <a style="text-align: left; padding-right: 50%;">Desenvolvo experiências digitais únicas. Explore meus
+                projetos e conheça mais sobre meu trabalho.
+            </a>
+            <a href="#about"><button id="sobremim"><a href="#about" style="color: rgb(255, 255, 255);">Mais sobre
+                        mim</a> <a style="visibility: hidden;">a</a> <i
+                        class="fa-solid fa-arrow-right fa-xl"></i></button></a>
+        </div>
+
+        <div id="about">
+            <div style="padding-left: 15%;">
+                <b>Quem sou eu e minhas habilidades.</b>
+                <p>Olá! Meu nome é Eduardo Oliveira, estudante de programação no Colégio Cotemig. Sou apaixonado por
+                    criar projetos, resolver desafios e explorar novas linguagens. Estou sempre aprendendo e buscando
+                    aprimorar minhas habilidades. Se quiser saber mais, fique à vontade para entrar em contato!</p>
+                <p>Minhas principais competências são comunicação, flexibilidade e resolução de problemas. Como
+                    estudante, estou constantemente aprimorando essas habilidades e buscando novas oportunidades de
+                    aprendizado para meu crescimento profissional.
+                </p>
+                <p>AAqui no site, você pode conferir alguns dos meus projetos e entrar em contato comigo!.</p>
+            </div>
+
+            <div style="text-align: center; width: 100%;">
+                <img id="foto">
+                </img>
+            </div>
+        </div>
+        <div id="projetos">
+            <div style="visibility: hidden; font-size: 600%;">a</div>
+            <b style="padding-top: 5vh; font-size: 200%; padding-left: 7.5%;">Projetos que já fiz:</b>
+            <div style="visibility: hidden; font-size: 400%;">a</div>
+            <div id="pj">
+                <div style="grid-column: 1;">
+
+                    <button class="left"> < </button>
+                    <div class="slider"></div>
+                    <button class="right">></button>
+                </div>
+                <div id="contato">
+                    <div><i class="fa-brands fa-github fa-2xl"> GITHUB: </i>EduardoOliveiraDuque</div>
+                    <div><i class="fa-solid fa-envelope fa-2xl"> EMAIL: </i>eduoduque@gmail.com</div>
+                    <div><i class="fa-brands fa-whatsapp fa-2xl"> NUMERO: </i>31-997866513</div>
+
+                    <div class="a"><i class="fa-brands fa-github fa-2xl"></i><input type="text" placeholder="GITHUB">
+                    </div>
+                    <div class="a"><i class="fa-solid fa-envelope fa-2xl"></i><input type="text" placeholder="Email">
+                    </div>
+                    <div class="a"><i class="fa-brands fa-whatsapp fa-2xl"></i><input type="text" placeholder="NUMERO">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+</body>
+
+</html>
